@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.App-header {
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 3em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App ul {
+  list-style: none;
+}
+
+.App li {
+	color: #3DF
+}
+
+.App input {
+	margin: 0 1em 1.5em;
+}
+
+.App a {
+	text-decoration: none;
+	color: #282c34;
+	margin-top: -3em;
+	padding: 2em;
+}
+
+.App h6 {
+	color: gold;
+}
+
+#guests {
+	margin-left: 1em;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+.space{
+	margin-left: 1em;
+}
+
+@media (max-width: 40em) {
+	.App input{
+		margin: 0.25em 0 1em;
+	}
+	.App li{
+		margin: 0.5em 0 0.5em -2em;
+	}
+}
